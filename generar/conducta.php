@@ -150,20 +150,21 @@ if ($cedulap = $cedula){
 
 <div class="imprimir" align="center">
     <img src="cintillo.png">
-    <br>
+    <br><br>
     <h3>REPÚBLICA BOLIVARIANA DE VENEZUELA</h3>
     <h3>MINISTERIO DEL PODER POPULAR PARA LAS COMUNAS</h3>
     <h3>CONSEJO COMUNAL TRINIDAD IV SECTOR I</h3>
     <h3>CALABOZO ESTADO GUARICO</h3>
     <br><br>
-    <h3><u>CONSTANCIA DE RESIDENCIA</u></h3>
+    <h3><u>CARTA DE BUENA CONDUCTA</u></h3>
     <br><br>
     <h4 class="h4">
     Quienes suscriben voceros del Consejo Comunal Trinidad IV Sector I,
-    hacemos constar por medio de la presente que el ciudadano(a) <b><?php echo $nombres;?>
-    <?php echo $apellidos;?></b> titular de la cedula <b><?php echo $cedula;?></b>, está
+    por medio de la presente, avalamos y postulamos al ciudadano(a) <b><?php echo $nombres;?>
+    <?php echo $apellidos;?></b> titular de la cedula de identidad <b><?php echo $cedula;?></b>,
     residenciado(a) en la <b><?php echo $residencia;?></b>, desde hace <b><?php echo $antiguedad; ?></b>
-    años aproximadamente.
+    años aproximadamente por ser una persona honesta, responsable, trabajadora, colaboradora, solidaria, 
+    con una conducta intachable y fiel cumplidora de los deberes cívicos y morales. 
 
     <br><br>
 
@@ -171,16 +172,15 @@ if ($cedulap = $cedula){
     ciudad de Calabozo a los <b><?php echo $dia;?></b> dias del mes de <b><?php echo $mes;?></b> del año <b><?php echo $anio;?></b>.
 
     <br><br>
-    <center><u>Atentamente</u><br>
+    <center><u>Atentamente</u><br><br>
    
-    _______________________<?php echo $espacio; echo $espacio; ?>_______________________<br>
-    Organo Administrativo<?php echo $espacio; echo $espacio;?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Organo Contralor
-    <br>C.I.:_______________ <?php echo $espacio; echo $espacio;?> C.I.:_______________<br>
-    Telf._______________<?php echo $espacio; echo $espacio;?> &nbsp;&nbsp;&nbsp;Telf.______________<br><br>
-   __________________<br>
-    Organo ejecutivo<br>
-    C.I.:_______________<br>
-    Telf._______________<br>
+       <table>
+        <tr align="center">
+        <td><p>_____________________&nbsp;&nbsp;&nbsp;</p><p>Omaira  Betancourt</p><p>C.I. 8.620.926</p><p>Telf:0416.0249958</p><p>V/Finanzas</p></td>
+        <td><p>_____________________&nbsp;&nbsp;&nbsp;</p><p>Carmen Rengifo</p><p>C.I.8.621.580</p><p>Telf.0424.3145898</p><p>V/Vivienda</p></td>
+        <td><p>_____________________&nbsp;&nbsp;&nbsp;</p><p>Yelindad Lopez</p><p>C.I. 10.271.288</p><p>Telf.0424.3464339</p><p>V/Contraloría</p></td>
+        </tr>
+    </table>
 
    <br><button onclick="window.print();">Imprimir</button>
     </center>
